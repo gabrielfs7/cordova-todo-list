@@ -16,6 +16,8 @@ A mobile todo list app built using Apache Cordova
  - nano /Users/<<USER>>/.bashrc
  - Add the following line: export ANDROID_HOME=/usr/local/opt/android-sdk
  - source /Users/<<USER>>/.bashrc
+6. Install necessary packages
+ - /usr/local/Cellar/android-sdk/24.3.4/bin/android
 
 # Creating and config the project
 
