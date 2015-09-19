@@ -9,6 +9,15 @@ A mobile todo list app built using Apache Cordova
 3. Install nodejs and npm
 4. Install Android SDK
  - brew install android-sdk
+5. Configure ANDROID_HOME:
+ - export ANDROID_HOME=/usr/local/Cellar/android-sdk/24.3.4
+ - export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+ OU
+ - nano /Users/<<USER>>/.bashrc
+ - Add the following line: export ANDROID_HOME=/usr/local/opt/android-sdk
+ - source /Users/<<USER>>/.bashrc
+
+# Creating and config the project
 
 1. Creating the Project:
  - cordova create cordova-todo-list cordova.todo.list TodoList
