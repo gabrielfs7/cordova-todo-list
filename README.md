@@ -2,7 +2,7 @@
 
 A mobile todo list app built using Apache Cordova
 
-1. Creating de Project:
+1. Creating the Project:
  - cordova create cordova-todo-list cordova.todo.list TodoList
  - cd cordova-todo-list
 2. Adding platform support
@@ -14,8 +14,10 @@ A mobile todo list app built using Apache Cordova
  - cordova build ios
  - cordova prepare ios
  - cordova compile ios
-
  - cordova build android
  - cordova prepare android
  - cordova compile android
-5. 
+5. Emulate de aplication
+ - cordova emulate android
+6. Run application
+ - cordova run android
