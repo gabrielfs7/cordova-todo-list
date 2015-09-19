@@ -2,6 +2,14 @@
 
 A mobile todo list app built using Apache Cordova
 
+# Requirements
+
+1. Install brew
+2. Install cordoba
+3. Install nodejs and npm
+4. Install Android SDK
+ - brew install android-sdk
+
 1. Creating the Project:
  - cordova create cordova-todo-list cordova.todo.list TodoList
  - cd cordova-todo-list
