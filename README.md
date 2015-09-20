@@ -18,6 +18,10 @@ A mobile todo list app built using Apache Cordova
  - source /Users/<<USER>>/.bashrc
 6. Install necessary packages
  - /usr/local/Cellar/android-sdk/24.3.4/bin/android
+7. Install system images: 
+ - /usr/local/Cellar/android-sdk/24.3.4/bin/android sdk
+8. Create AVD (Android Virtual Device): 
+ - /usr/local/Cellar/android-sdk/24.3.4/bin/android avd
 
 # Creating and config the project
 
