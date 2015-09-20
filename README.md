@@ -43,4 +43,25 @@ A mobile todo list app built using Apache Cordova
 5. Emulate de aplication
  - cordova emulate android
 6. Run application
+7. 
+
+# Ionic Project 
+
+1. Install Ionic:
+- sudo npm install -g cordova ionic
+- sudo npm install -g ionic
+2. Starting the project 
+- ionic start cordova-todo-list blank
+3. Configure ionic and run
+- cd cordova-todo-list
+- ionic platform add android
+- ionic build android
+- ionic emulate android
+4. Test on Browser:
+- ionic serve
+- Select 'localhost' server
+- Access: http://localhost:8100/
+
+
+
  - cordova run android
